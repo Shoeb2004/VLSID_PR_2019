@@ -1,0 +1,51 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Tue Oct 20 01:05:36 2026
+# Process ID: 11968
+# Log file: C:/Xilinx/42279/LCD_FSM/planAhead_run_1/planAhead.log
+# Journal file: C:/Xilinx/42279/LCD_FSM/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Xilinx/42279/LCD_FSM/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P80 [get_ports clk_12Mhz]
+endgroup
+startgroup
+set_property package_pin P204 [get_ports rst]
+endgroup
+startgroup
+set_property package_pin P48 [get_ports lcd_rs]
+endgroup
+startgroup
+set_property package_pin P9 [get_ports lcd_en]
+endgroup
+startgroup
+set_property package_pin P49 [get_ports lcd_en]
+endgroup
+startgroup
+set_property package_pin P47 [get_ports {lcd_data[0]}]
+endgroup
+startgroup
+set_property package_pin P41 [get_ports {lcd_data[1]}]
+endgroup
+startgroup
+set_property package_pin P39 [get_ports {lcd_data[2]}]
+endgroup
+startgroup
+set_property package_pin P35 [get_ports {lcd_data[3]}]
+endgroup
+startgroup
+set_property package_pin P33 [get_ports {lcd_data[4]}]
+endgroup
+startgroup
+set_property package_pin P31 [get_ports {lcd_data[5]}]
+endgroup
+startgroup
+set_property package_pin P24 [get_ports {lcd_data[7]}]
+endgroup
+startgroup
+set_property package_pin P29 [get_ports {lcd_data[6]}]
+endgroup
+save_constraints

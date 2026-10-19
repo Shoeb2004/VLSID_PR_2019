@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Xilinx/42279/fifo/fifo_tb_isim_beh.exe" -prj "C:/Xilinx/42279/fifo/fifo_tb_beh.prj" "work.fifo_tb" 

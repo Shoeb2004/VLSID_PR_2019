@@ -1,0 +1,12 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "Q[4]" LOC = P164;
+NET "Q[3]" LOC = P162;
+NET "Q[2]" LOC = P161;
+NET "Q[1]" LOC = P160;
+NET "Q[0]" LOC = P153;
+NET "clk" LOC = P132;
+NET "dir" LOC = P202;
+NET "pr" LOC = P204;
+NET "rst" LOC = P194;

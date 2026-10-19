@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Xilinx/42279/UNI_Shift_Register/UNI_Shift_Register_tb_isim_beh.exe" -prj "C:/Xilinx/42279/UNI_Shift_Register/UNI_Shift_Register_tb_beh.prj" "work.UNI_Shift_Register_tb" 

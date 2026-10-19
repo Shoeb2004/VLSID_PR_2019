@@ -1,0 +1,67 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Oct 19 22:45:00 2026
+# Process ID: 17892
+# Log file: C:/Xilinx/42279/UNI_Shift_Register/planAhead_run_1/planAhead.log
+# Journal file: C:/Xilinx/42279/UNI_Shift_Register/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Xilinx/42279/UNI_Shift_Register/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property package_pin "" [get_ports [list  {mode[1]}]]
+startgroup
+set_property package_pin P132 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin P204 [get_ports rst]
+endgroup
+startgroup
+set_property package_pin P205 [get_ports {mode[1]}]
+endgroup
+startgroup
+set_property package_pin P205 [get_ports {mode[1]}]
+endgroup
+startgroup
+set_property package_pin P206 [get_ports {mode[0]}]
+endgroup
+startgroup
+set_property package_pin P203 [get_ports Sin]
+endgroup
+startgroup
+set_property package_pin P202 [get_ports {Pout[3]}]
+endgroup
+startgroup
+set_property package_pin P197 [get_ports {Pout[2]}]
+endgroup
+startgroup
+set_property package_pin P199 [get_ports {Pout[1]}]
+endgroup
+startgroup
+set_property package_pin P196 [get_ports {Pout[0]}]
+endgroup
+startgroup
+set_property package_pin P193 [get_ports Sout]
+endgroup
+startgroup
+set_property package_pin P186 [get_ports {Pin[3]}]
+endgroup
+startgroup
+set_property package_pin P185 [get_ports {Pin[2]}]
+endgroup
+startgroup
+set_property package_pin P187 [get_ports {Pin[1]}]
+endgroup
+startgroup
+set_property package_pin P181 [get_ports {Pin[0]}]
+endgroup
+startgroup
+set_property package_pin P183 [get_ports {Pin[1]}]
+endgroup
+startgroup
+set_property package_pin P187 [get_ports {Pin[2]}]
+endgroup
+startgroup
+set_property package_pin P185 [get_ports {Pin[1]}]
+endgroup
+save_constraints

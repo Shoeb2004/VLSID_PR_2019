@@ -1,0 +1,2 @@
+vhdl isim_temp "mod25.vhd"
+vhdl isim_temp "mod25_tb.vhd"

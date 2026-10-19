@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Xilinx/42279/mod25/mod25_tb_isim_beh.exe" -prj "C:/Xilinx/42279/mod25/mod25_tb_beh.prj" "work.mod25_tb" 

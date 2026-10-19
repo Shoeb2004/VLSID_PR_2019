@@ -1,0 +1,2 @@
+vhdl isim_temp "LCD_FSM.vhd"
+vhdl isim_temp "LCD_FSM_tb.vhd"

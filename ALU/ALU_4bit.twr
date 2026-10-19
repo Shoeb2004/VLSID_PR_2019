@@ -1,0 +1,115 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 5 -n
+3 -fastpaths -xml ALU_4bit.twx ALU_4bit.ncd -o ALU_4bit.twr ALU_4bit.pcf -ucf
+ALU_4bit.ucf
+
+Design file:              ALU_4bit.ncd
+Physical constraint file: ALU_4bit.pcf
+Device,package,speed:     xc3s250e,pq208,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A<0>           |C_B            |   14.441|
+A<0>           |Y<0>           |   14.038|
+A<0>           |Y<1>           |   14.816|
+A<0>           |Y<2>           |   14.853|
+A<0>           |Y<3>           |   15.327|
+A<1>           |C_B            |   13.933|
+A<1>           |Y<0>           |   13.530|
+A<1>           |Y<1>           |   14.308|
+A<1>           |Y<2>           |   14.345|
+A<1>           |Y<3>           |   14.819|
+A<2>           |C_B            |   14.204|
+A<2>           |Y<0>           |   13.801|
+A<2>           |Y<1>           |   14.579|
+A<2>           |Y<2>           |   14.616|
+A<2>           |Y<3>           |   15.090|
+A<3>           |C_B            |   12.899|
+A<3>           |Y<0>           |   12.496|
+A<3>           |Y<1>           |   13.274|
+A<3>           |Y<2>           |   13.311|
+A<3>           |Y<3>           |   13.785|
+B<0>           |C_B            |   14.058|
+B<0>           |Y<0>           |   13.655|
+B<0>           |Y<1>           |   14.433|
+B<0>           |Y<2>           |   14.470|
+B<0>           |Y<3>           |   14.944|
+B<1>           |C_B            |   14.126|
+B<1>           |Y<0>           |   13.723|
+B<1>           |Y<1>           |   14.501|
+B<1>           |Y<2>           |   14.538|
+B<1>           |Y<3>           |   15.012|
+B<2>           |C_B            |   13.757|
+B<2>           |Y<0>           |   13.354|
+B<2>           |Y<1>           |   14.132|
+B<2>           |Y<2>           |   14.169|
+B<2>           |Y<3>           |   14.643|
+B<3>           |C_B            |   11.723|
+B<3>           |Y<0>           |   11.320|
+B<3>           |Y<1>           |   12.098|
+B<3>           |Y<2>           |   12.135|
+B<3>           |Y<3>           |   12.609|
+F<0>           |C_B            |   13.437|
+F<0>           |Y<0>           |   12.686|
+F<0>           |Y<1>           |   13.812|
+F<0>           |Y<2>           |   13.849|
+F<0>           |Y<3>           |   14.323|
+F<1>           |C_B            |   13.891|
+F<1>           |Y<0>           |   13.140|
+F<1>           |Y<1>           |   14.266|
+F<1>           |Y<2>           |   14.303|
+F<1>           |Y<3>           |   14.777|
+F<2>           |C_B            |   13.160|
+F<2>           |Y<0>           |   12.409|
+F<2>           |Y<1>           |   13.535|
+F<2>           |Y<2>           |   13.572|
+F<2>           |Y<3>           |   14.046|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Oct 19 21:05:11 2026 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 135 MB
+
+
+

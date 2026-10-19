@@ -1,0 +1,26 @@
+xst -intstyle ise -ifn "C:/Xilinx/42279/UNI_Shift_Register/UNI_Shift_Register.xst" -ofn "C:/Xilinx/42279/UNI_Shift_Register/UNI_Shift_Register.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/42279/UNI_Shift_Register/UNI_Shift_Register.xst" -ofn "C:/Xilinx/42279/UNI_Shift_Register/UNI_Shift_Register.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/42279/UNI_Shift_Register/UNI_Shift_Register.xst" -ofn "C:/Xilinx/42279/UNI_Shift_Register/UNI_Shift_Register.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UNI_Shift_Register.ucf -p xc3s250e-pq208-5 UNI_Shift_Register.ngc UNI_Shift_Register.ngd  
+xst -intstyle ise -ifn "C:/Xilinx/42279/UNI_Shift_Register/UNI_Shift_Register.xst" -ofn "C:/Xilinx/42279/UNI_Shift_Register/UNI_Shift_Register.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UNI_Shift_Register.ucf -p xc3s250e-pq208-5 UNI_Shift_Register.ngc UNI_Shift_Register.ngd  
+map -intstyle ise -p xc3s250e-pq208-5 -cm area -ir off -pr off -c 100 -o UNI_Shift_Register_map.ncd UNI_Shift_Register.ngd UNI_Shift_Register.pcf 
+par -w -intstyle ise -ol high -t 1 UNI_Shift_Register_map.ncd UNI_Shift_Register.ncd UNI_Shift_Register.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UNI_Shift_Register.twx UNI_Shift_Register.ncd -o UNI_Shift_Register.twr UNI_Shift_Register.pcf -ucf UNI_Shift_Register.ucf 
+bitgen -intstyle ise -f UNI_Shift_Register.ut UNI_Shift_Register.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/42279/UNI_Shift_Register/UNI_Shift_Register.xst" -ofn "C:/Xilinx/42279/UNI_Shift_Register/UNI_Shift_Register.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UNI_Shift_Register.ucf -p xc3s250e-pq208-5 UNI_Shift_Register.ngc UNI_Shift_Register.ngd  
+map -intstyle ise -p xc3s250e-pq208-5 -cm area -ir off -pr off -c 100 -o UNI_Shift_Register_map.ncd UNI_Shift_Register.ngd UNI_Shift_Register.pcf 
+par -w -intstyle ise -ol high -t 1 UNI_Shift_Register_map.ncd UNI_Shift_Register.ncd UNI_Shift_Register.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UNI_Shift_Register.twx UNI_Shift_Register.ncd -o UNI_Shift_Register.twr UNI_Shift_Register.pcf -ucf UNI_Shift_Register.ucf 
+xst -intstyle ise -ifn "C:/Xilinx/42279/UNI_Shift_Register/UNI_Shift_Register.xst" -ofn "C:/Xilinx/42279/UNI_Shift_Register/UNI_Shift_Register.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UNI_Shift_Register.ucf -p xc3s250e-pq208-5 UNI_Shift_Register.ngc UNI_Shift_Register.ngd  
+map -intstyle ise -p xc3s250e-pq208-5 -cm area -ir off -pr off -c 100 -o UNI_Shift_Register_map.ncd UNI_Shift_Register.ngd UNI_Shift_Register.pcf 
+par -w -intstyle ise -ol high -t 1 UNI_Shift_Register_map.ncd UNI_Shift_Register.ncd UNI_Shift_Register.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UNI_Shift_Register.twx UNI_Shift_Register.ncd -o UNI_Shift_Register.twr UNI_Shift_Register.pcf -ucf UNI_Shift_Register.ucf 
+bitgen -intstyle ise -f UNI_Shift_Register.ut UNI_Shift_Register.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UNI_Shift_Register.ucf -p xc3s250e-pq208-5 UNI_Shift_Register.ngc UNI_Shift_Register.ngd  
+map -intstyle ise -p xc3s250e-pq208-5 -cm area -ir off -pr off -c 100 -o UNI_Shift_Register_map.ncd UNI_Shift_Register.ngd UNI_Shift_Register.pcf 
+par -w -intstyle ise -ol high -t 1 UNI_Shift_Register_map.ncd UNI_Shift_Register.ncd UNI_Shift_Register.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UNI_Shift_Register.twx UNI_Shift_Register.ncd -o UNI_Shift_Register.twr UNI_Shift_Register.pcf -ucf UNI_Shift_Register.ucf 
+bitgen -intstyle ise -f UNI_Shift_Register.ut UNI_Shift_Register.ncd 

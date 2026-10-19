@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Xilinx\42279\UNI_Shift_Register\UNI_Shift_Register.ncd
+OUTFILE=C:\Xilinx\42279\UNI_Shift_Register\UNI_Shift_Register.bit
+FAMILY=Spartan3E
+PART=xc3s250e-5pq208
+WORKINGDIR=C:\Xilinx\42279\UNI_Shift_Register
+LICENSE=WebPack
+USER_INFO=210912954_0_0_861

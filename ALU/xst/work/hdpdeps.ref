@@ -1,0 +1,7 @@
+V3 3
+FL C:/Xilinx/42279/ALU/ALU_4bit.vhd 2026/10/19.20:46:08 P.20131013
+EN work/ALU_4bit 1792424037 FL C:/Xilinx/42279/ALU/ALU_4bit.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/ALU_4bit/ALU_4bit_arch 1792424038 \
+      FL C:/Xilinx/42279/ALU/ALU_4bit.vhd EN work/ALU_4bit 1792424037

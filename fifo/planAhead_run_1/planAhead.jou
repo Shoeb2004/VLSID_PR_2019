@@ -1,0 +1,115 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Tue Oct 20 00:13:37 2026
+# Process ID: 18612
+# Log file: C:/Xilinx/42279/fifo/planAhead_run_1/planAhead.log
+# Journal file: C:/Xilinx/42279/fifo/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Xilinx/42279/fifo/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P165 [get_ports {data_in[7]}]
+endgroup
+startgroup
+set_property package_pin P167 [get_ports {data_in[6]}]
+endgroup
+startgroup
+set_property package_pin P163 [get_ports {data_in[5]}]
+endgroup
+startgroup
+set_property package_pin P164 [get_ports {data_in[4]}]
+endgroup
+startgroup
+set_property package_pin P161 [get_ports {data_in[3]}]
+endgroup
+startgroup
+set_property package_pin P162 [get_ports {data_in[2]}]
+endgroup
+startgroup
+set_property package_pin P160 [get_ports {data_in[1]}]
+endgroup
+startgroup
+set_property package_pin P153 [get_ports {data_in[0]}]
+endgroup
+startgroup
+set_property package_pin P179 [get_ports {data_out[7]}]
+endgroup
+startgroup
+set_property package_pin P180 [get_ports {data_out[7]}]
+endgroup
+startgroup
+set_property package_pin P177 [get_ports {data_out[6]}]
+endgroup
+startgroup
+set_property package_pin P178 [get_ports {data_out[5]}]
+endgroup
+startgroup
+set_property package_pin P152 [get_ports {data_out[4]}]
+endgroup
+startgroup
+set_property package_pin P168 [get_ports {data_out[3]}]
+endgroup
+startgroup
+set_property package_pin P171 [get_ports {data_out[2]}]
+endgroup
+startgroup
+set_property package_pin P172 [get_ports {data_out[1]}]
+endgroup
+startgroup
+set_property package_pin P179 [get_ports {data_out[7]}]
+endgroup
+startgroup
+set_property package_pin P180 [get_ports {data_out[6]}]
+endgroup
+startgroup
+set_property package_pin P177 [get_ports {data_out[5]}]
+endgroup
+startgroup
+set_property package_pin P178 [get_ports {data_out[4]}]
+endgroup
+startgroup
+set_property package_pin P152 [get_ports {data_out[3]}]
+endgroup
+startgroup
+set_property package_pin P168 [get_ports {data_out[2]}]
+endgroup
+startgroup
+set_property package_pin P171 [get_ports {data_out[1]}]
+endgroup
+startgroup
+set_property package_pin P172 [get_ports {data_out[0]}]
+endgroup
+startgroup
+set_property package_pin P132 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin P184 [get_ports enr]
+endgroup
+startgroup
+set_property package_pin P194 [get_ports enr]
+endgroup
+set_property package_pin "" [get_ports [list  enw]]
+startgroup
+set_property package_pin P184 [get_ports enr]
+endgroup
+startgroup
+set_property package_pin P184 [get_ports enr]
+endgroup
+startgroup
+set_property package_pin P94 [get_ports enw]
+endgroup
+startgroup
+set_property package_pin P194 [get_ports enw]
+endgroup
+startgroup
+set_property package_pin P199 [get_ports fifo_empty]
+endgroup
+startgroup
+set_property package_pin P196 [get_ports fifo_full]
+endgroup
+startgroup
+set_property package_pin P204 [get_ports reset]
+endgroup
+save_constraints

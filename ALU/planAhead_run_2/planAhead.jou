@@ -1,0 +1,63 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Oct 19 20:55:09 2026
+# Process ID: 9036
+# Log file: C:/Xilinx/42279/ALU/planAhead_run_2/planAhead.log
+# Journal file: C:/Xilinx/42279/ALU/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Xilinx/42279/ALU/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P205 [get_ports {A[3]}]
+endgroup
+startgroup
+set_property package_pin P206 [get_ports {A[2]}]
+endgroup
+startgroup
+set_property package_pin P203 [get_ports {A[1]}]
+endgroup
+startgroup
+set_property package_pin P203 [get_ports {A[1]}]
+endgroup
+startgroup
+set_property package_pin P200 [get_ports {A[0]}]
+endgroup
+startgroup
+set_property package_pin P192 [get_ports {B[3]}]
+endgroup
+startgroup
+set_property package_pin P193 [get_ports {B[2]}]
+endgroup
+startgroup
+set_property package_pin P189 [get_ports {B[1]}]
+endgroup
+startgroup
+set_property package_pin P190 [get_ports {B[0]}]
+endgroup
+startgroup
+set_property package_pin P179 [get_ports {F[2]}]
+endgroup
+startgroup
+set_property package_pin P180 [get_ports {F[1]}]
+endgroup
+startgroup
+set_property package_pin P177 [get_ports {F[0]}]
+endgroup
+startgroup
+set_property package_pin P165 [get_ports {Y[3]}]
+endgroup
+startgroup
+set_property package_pin P167 [get_ports {Y[2]}]
+endgroup
+startgroup
+set_property package_pin P163 [get_ports {Y[1]}]
+endgroup
+startgroup
+set_property package_pin P164 [get_ports {Y[0]}]
+endgroup
+startgroup
+set_property package_pin P153 [get_ports C_B]
+endgroup
+save_constraints

@@ -1,0 +1,25 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "data_in[7]" LOC = P165;
+NET "data_in[6]" LOC = P167;
+NET "data_in[5]" LOC = P163;
+NET "data_in[4]" LOC = P164;
+NET "data_in[3]" LOC = P161;
+NET "data_in[2]" LOC = P162;
+NET "data_in[1]" LOC = P160;
+NET "data_in[0]" LOC = P153;
+NET "data_out[7]" LOC = P179;
+NET "data_out[6]" LOC = P180;
+NET "data_out[5]" LOC = P177;
+NET "data_out[4]" LOC = P178;
+NET "data_out[3]" LOC = P152;
+NET "data_out[2]" LOC = P168;
+NET "data_out[1]" LOC = P171;
+NET "data_out[0]" LOC = P172;
+NET "clk" LOC = P132;
+NET "enr" LOC = P184;
+NET "enw" LOC = P194;
+NET "fifo_empty" LOC = P199;
+NET "fifo_full" LOC = P196;
+NET "reset" LOC = P204;
