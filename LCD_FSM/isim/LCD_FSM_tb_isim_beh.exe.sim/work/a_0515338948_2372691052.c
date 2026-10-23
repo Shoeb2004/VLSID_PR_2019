@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Xilinx/42279/LCD_FSM/LCD_FSM_tb.vhd";
+static const char *ng0 = "C:/Xilinx/VLSID_PR_PICT/LCD_FSM/LCD_FSM_tb.vhd";
 
 
 
