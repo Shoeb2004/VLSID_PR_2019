@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2026-10-20T00:00:15</DateModified>
+  <DateModified>2026-11-01T15:00:14</DateModified>
   <ModuleName>fifo</ModuleName>
   <SummaryTimeStamp>2026-10-19T23:57:47</SummaryTimeStamp>
-  <SavedFilePath>C:/Xilinx/42279/fifo/iseconfig/fifo.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Xilinx/42279/fifo</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Xilinx/VLSID_PR_PICT/4.FIFO/iseconfig/fifo.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Xilinx/VLSID_PR_PICT/4.FIFO\</ImplementationReportsDirectory>
   <DateInitialized>2026-10-19T23:33:30</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

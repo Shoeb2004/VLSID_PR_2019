@@ -7,3 +7,4 @@ trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_FSM.twx LCD_FSM.ncd -o LCD
 bitgen -intstyle ise -f LCD_FSM.ut LCD_FSM.ncd 
 xst -intstyle ise -ifn "C:/Xilinx/VLSID_PR_PICT/LCD_FSM/LCD_FSM.xst" -ofn "C:/Xilinx/VLSID_PR_PICT/LCD_FSM/LCD_FSM.syr" 
 xst -intstyle ise -ifn "C:/Xilinx/VLSID_PR_PICT/LCD_FSM/LCD_FSM.xst" -ofn "C:/Xilinx/VLSID_PR_PICT/LCD_FSM/LCD_FSM.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/VLSID_PR_PICT/5.LCD_FSM/LCD_FSM.xst" -ofn "C:/Xilinx/VLSID_PR_PICT/5.LCD_FSM/LCD_FSM.syr" 

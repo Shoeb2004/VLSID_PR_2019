@@ -1,0 +1,7 @@
+V3 3
+FL C:/Xilinx/VLSID_PR_PICT/lcd_test/lcd_test.vhd 2026/11/02.17:04:39 P.20131013
+EN work/lcd_test 1793620056 FL C:/Xilinx/VLSID_PR_PICT/lcd_test/lcd_test.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/lcd_test/Behavioral 1793620057 \
+      FL C:/Xilinx/VLSID_PR_PICT/lcd_test/lcd_test.vhd EN work/lcd_test 1793620056

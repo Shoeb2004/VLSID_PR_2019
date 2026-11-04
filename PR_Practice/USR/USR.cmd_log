@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Xilinx/VLSID_PR_PICT/PR_Practice/USR/USR.xst" -ofn "C:/Xilinx/VLSID_PR_PICT/PR_Practice/USR/USR.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/VLSID_PR_PICT/PR_Practice/USR/USR.xst" -ofn "C:/Xilinx/VLSID_PR_PICT/PR_Practice/USR/USR.syr" 

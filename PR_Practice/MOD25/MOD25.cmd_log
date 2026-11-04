@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Xilinx/VLSID_PR_PICT/PR_Practice/MOD25/MOD25.xst" -ofn "C:/Xilinx/VLSID_PR_PICT/PR_Practice/MOD25/MOD25.syr" 

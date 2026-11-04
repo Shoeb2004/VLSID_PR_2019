@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-SHOEB-LP::  Mon Oct 19 22:54:47 2026
+SHOEB-LP::  Thu Oct 29 10:06:43 2026
 
 par -w -intstyle ise -ol high -t 1 UNI_Shift_Register_map.ncd
 UNI_Shift_Register.ncd UNI_Shift_Register.pcf 
@@ -53,22 +53,22 @@ Placer effort level (-pl):    High
 Placer cost table entry (-t): 1
 Router effort level (-rl):    High 
 
-Starting initial Timing Analysis.  REAL time: 1 secs 
-Finished initial Timing Analysis.  REAL time: 1 secs 
+Starting initial Timing Analysis.  REAL time: 2 secs 
+Finished initial Timing Analysis.  REAL time: 2 secs 
 
 
 Starting Placer
-Total REAL time at the beginning of Placer: 1 secs 
-Total CPU  time at the beginning of Placer: 1 secs 
+Total REAL time at the beginning of Placer: 2 secs 
+Total CPU  time at the beginning of Placer: 2 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:ee4ff2f) REAL time: 2 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:ee4ff2f) REAL time: 3 secs 
 
 Phase 2.7  Design Feasibility Check
-Phase 2.7  Design Feasibility Check (Checksum:ee4ff2f) REAL time: 2 secs 
+Phase 2.7  Design Feasibility Check (Checksum:ee4ff2f) REAL time: 3 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:ee4ff2f) REAL time: 2 secs 
+Phase 3.31  Local Placement Optimization (Checksum:ee4ff2f) REAL time: 3 secs 
 
 Phase 4.2  Initial Clock and IO Placement
 
@@ -77,30 +77,30 @@ WARNING:Place:619 - This design is using a Side-BUFG site due to placement const
    whenever possible because they can reach every clock region on the device. Side-BUFG sites can reach only clock
    regions on the same side of the device and also preclude the use of certain Top and Bottom BUFGs in the same clock
    region.
-Phase 4.2  Initial Clock and IO Placement (Checksum:209b072f) REAL time: 4 secs 
+Phase 4.2  Initial Clock and IO Placement (Checksum:209b072f) REAL time: 6 secs 
 
 ..
 Phase 5.30  Global Clock Region Assignment
-Phase 5.30  Global Clock Region Assignment (Checksum:209b072f) REAL time: 4 secs 
+Phase 5.30  Global Clock Region Assignment (Checksum:209b072f) REAL time: 6 secs 
 
 Phase 6.36  Local Placement Optimization
-Phase 6.36  Local Placement Optimization (Checksum:209b072f) REAL time: 4 secs 
+Phase 6.36  Local Placement Optimization (Checksum:209b072f) REAL time: 6 secs 
 
 Phase 7.8  Global Placement
 ....
-Phase 7.8  Global Placement (Checksum:467b5f3b) REAL time: 4 secs 
+Phase 7.8  Global Placement (Checksum:467b5f3b) REAL time: 6 secs 
 
 Phase 8.5  Local Placement Optimization
-Phase 8.5  Local Placement Optimization (Checksum:467b5f3b) REAL time: 4 secs 
+Phase 8.5  Local Placement Optimization (Checksum:467b5f3b) REAL time: 6 secs 
 
 Phase 9.18  Placement Optimization
-Phase 9.18  Placement Optimization (Checksum:466471ff) REAL time: 4 secs 
+Phase 9.18  Placement Optimization (Checksum:466471ff) REAL time: 6 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:466471ff) REAL time: 4 secs 
+Phase 10.5  Local Placement Optimization (Checksum:466471ff) REAL time: 6 secs 
 
-Total REAL time to Placer completion: 4 secs 
-Total CPU  time to Placer completion: 4 secs 
+Total REAL time to Placer completion: 6 secs 
+Total CPU  time to Placer completion: 5 secs 
 Writing design to file UNI_Shift_Register.ncd
 
 
@@ -108,34 +108,34 @@ Writing design to file UNI_Shift_Register.ncd
 Starting Router
 
 
-Phase  1  : 60 unrouted;      REAL time: 7 secs 
+Phase  1  : 60 unrouted;      REAL time: 9 secs 
 
-Phase  2  : 53 unrouted;      REAL time: 7 secs 
+Phase  2  : 53 unrouted;      REAL time: 9 secs 
 
-Phase  3  : 25 unrouted;      REAL time: 7 secs 
+Phase  3  : 25 unrouted;      REAL time: 9 secs 
 
-Phase  4  : 35 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
+Phase  4  : 35 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
 
-Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
-
-Updating file: UNI_Shift_Register.ncd with current fully routed design.
-
-Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
-
-Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
 
 Updating file: UNI_Shift_Register.ncd with current fully routed design.
 
-Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
 
-Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
 
-Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
+Updating file: UNI_Shift_Register.ncd with current fully routed design.
 
-Phase 11  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
 
-Total REAL time to Router completion: 7 secs 
-Total CPU time to Router completion: 7 secs 
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
+
+Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
+
+Phase 11  : 0 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
+
+Total REAL time to Router completion: 10 secs 
+Total CPU time to Router completion: 9 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -190,10 +190,10 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 8 secs 
-Total CPU time to PAR completion: 7 secs 
+Total REAL time to PAR completion: 11 secs 
+Total CPU time to PAR completion: 9 secs 
 
-Peak Memory Usage:  4386 MB
+Peak Memory Usage:  4399 MB
 
 Placement: Completed - No errors found.
 Routing: Completed - No errors found.

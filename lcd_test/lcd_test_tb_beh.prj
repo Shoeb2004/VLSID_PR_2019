@@ -1,0 +1,2 @@
+vhdl work "lcd_test.vhd"
+vhdl work "lcd_test_tb.vhd"

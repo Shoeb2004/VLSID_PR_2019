@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Xilinx\VLSID_PR_PICT\lcd_test\lcd_test.ncd
+OUTFILE=C:\Xilinx\VLSID_PR_PICT\lcd_test\lcd_test.bit
+FAMILY=Spartan3E
+PART=xc3s250e-5pq208
+WORKINGDIR=C:\Xilinx\VLSID_PR_PICT\lcd_test
+LICENSE=WebPack
+USER_INFO=210912954_0_0_861

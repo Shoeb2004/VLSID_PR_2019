@@ -5,14 +5,14 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Map" timeStamp="Mon Oct 19 22:54:43 2026">
+  <application stringID="Map" timeStamp="Thu Oct 29 10:06:38 2026">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
         <column stringID="value"/>
         <row stringID="row" value="0">
           <item stringID="variable" value="Path"/>
-          <item stringID="value" value="C:\Xilinx\14.7\ISE_DS\ISE\\lib\nt64;C:\Xilinx\14.7\ISE_DS\ISE\\bin\nt64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\MinGW\bin;C:\Users\Sohail\AppData\Local\Programs\Python\Python314;C:\Users\Sohail\AppData\Local\Programs\Python\Python314\Scripts;C:\Program Files\dotnet\;C:\Users\Sohail\AppData\Local\Programs\Python\Python314\Scripts\;C:\Users\Sohail\AppData\Local\Programs\Python\Python314\;C:\Users\Sohail\AppData\Local\Microsoft\WindowsApps;C:\Users\Sohail\AppData\Local\Programs\Microsoft VS Code\bin;C:\intelFPGA\20.1\modelsim_ase\win32aloem"/>
+          <item stringID="value" value="C:\Xilinx\14.7\ISE_DS\ISE\\lib\nt64;C:\Xilinx\14.7\ISE_DS\ISE\\bin\nt64;C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64;C:\Xilinx\14.7\ISE_DS\ISE\lib\nt64;C:\Xilinx\14.7\ISE_DS\ISE\..\..\..\DocNav;C:\Xilinx\14.7\ISE_DS\PlanAhead\bin;C:\Xilinx\14.7\ISE_DS\EDK\bin\nt64;C:\Xilinx\14.7\ISE_DS\EDK\lib\nt64;C:\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\nt\bin;C:\Xilinx\14.7\ISE_DS\EDK\gnu\powerpc-eabi\nt\bin;C:\Xilinx\14.7\ISE_DS\EDK\gnuwin\bin;C:\Xilinx\14.7\ISE_DS\EDK\gnu\arm\nt\bin;C:\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_be\bin;C:\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_le\bin;C:\Xilinx\14.7\ISE_DS\common\bin\nt64;C:\Xilinx\14.7\ISE_DS\common\lib\nt64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\MinGW\bin;C:\Users\Sohail\AppData\Local\Programs\Python\Python314;C:\Users\Sohail\AppData\Local\Programs\Python\Python314\Scripts;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Git\ucrt64\bin;C:\Program Files\Git\usr\bin;C:\Users\Sohail\AppData\Local\Programs\Python\Python314\Scripts\;C:\Users\Sohail\AppData\Local\Programs\Python\Python314\;C:\Users\Sohail\AppData\Local\Microsoft\WindowsApps;C:\Users\Sohail\AppData\Local\Programs\Microsoft VS Code\bin;C:\intelFPGA\20.1\modelsim_ase\win32aloem;C:\Users\Sohail\AppData\Local\Programs\Microsoft VS Code\bin\copilot-shim;C:\Users\Sohail\AppData\Local\GitHubDesktop\bin"/>
         </row>
         <row stringID="row" value="1">
           <item stringID="variable" value="PATHEXT"/>
@@ -25,6 +25,18 @@
         <row stringID="row" value="3">
           <item stringID="variable" value="XILINXD_LICENSE_FILE"/>
           <item stringID="value" value="D:\Shoeb\Xilinx_ISE_DS_Win_14.7\xilinx.lic"/>
+        </row>
+        <row stringID="row" value="4">
+          <item stringID="variable" value="XILINX_DSP"/>
+          <item stringID="value" value="C:\Xilinx\14.7\ISE_DS\ISE"/>
+        </row>
+        <row stringID="row" value="5">
+          <item stringID="variable" value="XILINX_EDK"/>
+          <item stringID="value" value="C:\Xilinx\14.7\ISE_DS\EDK"/>
+        </row>
+        <row stringID="row" value="6">
+          <item stringID="variable" value="XILINX_PLANAHEAD"/>
+          <item stringID="value" value="C:\Xilinx\14.7\ISE_DS\PlanAhead"/>
         </row>
       </table>
       <item stringID="User_EnvOs" value="OS Information">
@@ -61,8 +73,8 @@
         <item dataType="int" stringID="MAP_NUM_ERRORS" value="0"/>
         <item dataType="int" stringID="MAP_FILTERED_WARNINGS" value="0"/>
         <item dataType="int" stringID="MAP_NUM_WARNINGS" value="0"/>
-        <item UNITS="KB" dataType="int" stringID="MAP_PEAK_MEMORY" value="4498192"/>
-        <item stringID="MAP_TOTAL_REAL_TIME" value="2 secs "/>
+        <item UNITS="KB" dataType="int" stringID="MAP_PEAK_MEMORY" value="4498704"/>
+        <item stringID="MAP_TOTAL_REAL_TIME" value="3 secs "/>
         <item stringID="MAP_TOTAL_CPU_TIME" value="2 secs "/>
       </section>
       <section stringID="MAP_SLICE_REPORTING">

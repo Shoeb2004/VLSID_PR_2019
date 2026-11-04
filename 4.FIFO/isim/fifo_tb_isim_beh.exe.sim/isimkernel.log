@@ -2,14 +2,14 @@ Command line:
    fifo_tb_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  50970
+     -socket  49924
 
-Tue Oct 20 00:09:59 2026
+Sun Nov 01 15:00:24 2026
 
 
- Elaboration Time: 0.0625 sec
+ Elaboration Time: 0.078125 sec
 
- Current Memory Usage: 4993.76 Meg
+ Current Memory Usage: 5141.45 Meg
 
  Total Signals          : 22
  Total Nets             : 155
@@ -21,9 +21,9 @@ Tue Oct 20 00:09:59 2026
  Total Scalar Nets and Variables : 536
 Total Line Count : 66
 
- Total Simulation Time: 0.265625 sec
+ Total Simulation Time: 0.171875 sec
 
- Current Memory Usage: 4679.19 Meg
+ Current Memory Usage: 4984.16 Meg
 
-Tue Oct 20 00:13:20 2026
+Sun Nov 01 15:06:08 2026
 

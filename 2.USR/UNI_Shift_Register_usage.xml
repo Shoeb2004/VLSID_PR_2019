@@ -4,8 +4,8 @@
      changes made to this file may result in unpredictable
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
-<DeviceUsageSummary rev="7">
-<DesignStatistics TimeStamp="Mon Oct 19 22:55:05 2026"><group name="NetStatistics">
+<DeviceUsageSummary rev="8">
+<DesignStatistics TimeStamp="Thu Oct 29 10:06:38 2026"><group name="NetStatistics">
 <item name="NumNets_Active" rev="7">
 <attrib name="value" value="35"/></item>
 <item name="NumNets_Vcc" rev="7">
@@ -60,57 +60,26 @@
 <attrib name="value" value="3"/></item>
 </group>
 <group name="MiscellaneousStatistics">
-<item name="AGG_BONDED_IO" rev="6">
+<item name="AGG_BONDED_IO" rev="8">
 <attrib name="value" value="14"/></item>
-<item name="AGG_IO" rev="6">
+<item name="AGG_IO" rev="8">
 <attrib name="value" value="14"/></item>
-<item name="AGG_SLICE" rev="6">
+<item name="AGG_SLICE" rev="8">
 <attrib name="value" value="6"/></item>
-<item name="NUM_4_INPUT_LUT" rev="6">
+<item name="NUM_4_INPUT_LUT" rev="8">
 <attrib name="value" value="11"/></item>
-<item name="NUM_BONDED_IBUF" rev="6">
+<item name="NUM_BONDED_IBUF" rev="8">
 <attrib name="value" value="9"/></item>
-<item name="NUM_BONDED_IOB" rev="6">
+<item name="NUM_BONDED_IOB" rev="8">
 <attrib name="value" value="5"/></item>
-<item name="NUM_BUFGMUX" rev="6">
+<item name="NUM_BUFGMUX" rev="8">
 <attrib name="value" value="1"/></item>
-<item name="NUM_SLICEL" rev="6">
+<item name="NUM_SLICEL" rev="8">
 <attrib name="value" value="6"/></item>
-<item name="NUM_SLICE_FF" rev="6">
+<item name="NUM_SLICE_FF" rev="8">
 <attrib name="value" value="9"/></item>
 </group>
 </DesignStatistics>
-<DeviceUsage TimeStamp="Mon Oct 19 22:55:05 2026"><group name="SiteSummary">
-<item name="BUFGMUX" rev="7">
-<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
-<item name="BUFGMUX_GCLKMUX" rev="7">
-<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
-<item name="BUFGMUX_GCLK_BUFFER" rev="7">
-<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
-<item name="IBUF" rev="7">
-<attrib name="total" value="1000000"/><attrib name="used" value="9"/></item>
-<item name="IBUF_INBUF" rev="7">
-<attrib name="total" value="1000000"/><attrib name="used" value="9"/></item>
-<item name="IBUF_PAD" rev="7">
-<attrib name="total" value="1000000"/><attrib name="used" value="9"/></item>
-<item name="IOB" rev="7">
-<attrib name="total" value="1000000"/><attrib name="used" value="5"/></item>
-<item name="IOB_OUTBUF" rev="7">
-<attrib name="total" value="1000000"/><attrib name="used" value="5"/></item>
-<item name="IOB_PAD" rev="7">
-<attrib name="total" value="1000000"/><attrib name="used" value="5"/></item>
-<item name="SLICEL" rev="7">
-<attrib name="total" value="1000000"/><attrib name="used" value="6"/></item>
-<item name="SLICEL_F" rev="7">
-<attrib name="total" value="1000000"/><attrib name="used" value="5"/></item>
-<item name="SLICEL_FFX" rev="7">
-<attrib name="total" value="1000000"/><attrib name="used" value="4"/></item>
-<item name="SLICEL_FFY" rev="7">
-<attrib name="total" value="1000000"/><attrib name="used" value="5"/></item>
-<item name="SLICEL_G" rev="7">
-<attrib name="total" value="1000000"/><attrib name="used" value="6"/></item>
-</group>
-</DeviceUsage>
 <ReportConfigData TimeStamp="Mon Oct 19 22:55:05 2026"><group name="IBUF_PAD">
 <item name="IOATTRBOX" rev="7">
 <attrib name="LVCMOS25" value="9"/></item>

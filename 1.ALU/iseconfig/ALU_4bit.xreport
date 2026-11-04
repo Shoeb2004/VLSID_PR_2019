@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2026-10-20T01:13:04</DateModified>
+  <DateModified>2026-10-29T09:42:30</DateModified>
   <ModuleName>ALU_4bit</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Xilinx/42279/ALU/iseconfig/ALU_4bit.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Xilinx/42279/ALU\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Xilinx/VLSID_PR_PICT/1.ALU/iseconfig/ALU_4bit.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Xilinx/VLSID_PR_PICT/1.ALU\</ImplementationReportsDirectory>
   <DateInitialized>2026-10-19T19:50:52</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

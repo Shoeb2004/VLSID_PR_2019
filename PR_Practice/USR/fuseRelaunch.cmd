@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Xilinx/VLSID_PR_PICT/PR_Practice/USR/USR_tb_isim_beh.exe" -prj "C:/Xilinx/VLSID_PR_PICT/PR_Practice/USR/USR_tb_beh.prj" "work.USR_tb" 

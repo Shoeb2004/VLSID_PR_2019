@@ -57,7 +57,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LCD_FSM_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="LCD_FSM_summary.html"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="LCD_FSM_summary.xml"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LCD_FSM_tb_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LCD_FSM_tb_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="LCD_FSM_tb_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="LCD_FSM_tb_isim_beh.wdb"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LCD_FSM_tb_stx_beh.prj"/>
@@ -165,12 +165,10 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1792605613" xil_pn:in_ck="119609350617248680" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-6016333296432679460" xil_pn:start_ts="1792605603">
+    <transform xil_pn:end_ts="1793617714" xil_pn:in_ck="119609350617248680" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-6016333296432679460" xil_pn:start_ts="1793617700">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
-      <status xil_pn:value="OutputRemoved"/>
       <outfile xil_pn:name="LCD_FSM.lso"/>
       <outfile xil_pn:name="LCD_FSM.ngc"/>
       <outfile xil_pn:name="LCD_FSM.ngr"/>
@@ -179,6 +177,7 @@
       <outfile xil_pn:name="LCD_FSM.syr"/>
       <outfile xil_pn:name="LCD_FSM.xst"/>
       <outfile xil_pn:name="LCD_FSM_stx_beh.prj"/>
+      <outfile xil_pn:name="LCD_FSM_tb_beh.prj"/>
       <outfile xil_pn:name="LCD_FSM_tb_stx_beh.prj"/>
       <outfile xil_pn:name="LCD_FSM_vhdl.prj"/>
       <outfile xil_pn:name="LCD_FSM_xst.xrpt"/>
@@ -194,7 +193,6 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="LCD_FSM.bld"/>
       <outfile xil_pn:name="LCD_FSM.ngd"/>

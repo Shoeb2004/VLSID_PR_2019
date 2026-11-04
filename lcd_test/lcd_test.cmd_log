@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "C:/Xilinx/VLSID_PR_PICT/lcd_test/lcd_test.xst" -ofn "C:/Xilinx/VLSID_PR_PICT/lcd_test/lcd_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lcd_test.ucf -p xc3s250e-pq208-5 lcd_test.ngc lcd_test.ngd  
+map -intstyle ise -p xc3s250e-pq208-5 -cm area -ir off -pr off -c 100 -o lcd_test_map.ncd lcd_test.ngd lcd_test.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_test_map.ncd lcd_test.ncd lcd_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd_test.twx lcd_test.ncd -o lcd_test.twr lcd_test.pcf -ucf lcd_test.ucf 
+bitgen -intstyle ise -f lcd_test.ut lcd_test.ncd 
+par -w -intstyle ise -ol high -t 1 lcd_test_map.ncd lcd_test.ncd lcd_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd_test.twx lcd_test.ncd -o lcd_test.twr lcd_test.pcf -ucf lcd_test.ucf 

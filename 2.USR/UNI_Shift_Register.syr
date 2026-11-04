@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.19 secs
+Total CPU time to Xst completion: 0.42 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.19 secs
+Total CPU time to Xst completion: 0.42 secs
  
 --> Reading design: UNI_Shift_Register.prj
 
@@ -104,7 +104,7 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "C:/Xilinx/42279/UNI_Shift_Register/UNI_Shift_Register.vhd" in Library work.
+Compiling vhdl file "C:/Xilinx/VLSID_PR_PICT/2.USR/UNI_Shift_Register.vhd" in Library work.
 Architecture uni_shift_register_arch of Entity uni_shift_register is up to date.
 
 =========================================================================
@@ -127,7 +127,7 @@ Entity <UNI_Shift_Register> analyzed. Unit <UNI_Shift_Register> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <UNI_Shift_Register>.
-    Related source file is "C:/Xilinx/42279/UNI_Shift_Register/UNI_Shift_Register.vhd".
+    Related source file is "C:/Xilinx/VLSID_PR_PICT/2.USR/UNI_Shift_Register.vhd".
     Found 4-bit register for signal <Pout>.
     Found 1-bit register for signal <Sout>.
     Found 4-bit 4-to-1 multiplexer for signal <Pout$mux0001> created at line 31.
@@ -355,12 +355,12 @@ Offset:              4.040ns (Levels of Logic = 1)
 =========================================================================
 
 
-Total REAL time to Xst completion: 10.00 secs
-Total CPU time to Xst completion: 10.15 secs
+Total REAL time to Xst completion: 16.00 secs
+Total CPU time to Xst completion: 16.75 secs
  
 --> 
 
-Total memory usage is 4482580 kilobytes
+Total memory usage is 4482388 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

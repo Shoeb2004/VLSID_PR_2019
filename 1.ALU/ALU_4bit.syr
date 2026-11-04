@@ -1,16 +1,16 @@
-Release 14.7 - xst P.20131013 (nt)
+Release 14.7 - xst P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.28 secs
+Total CPU time to Xst completion: 0.30 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.28 secs
+Total CPU time to Xst completion: 0.30 secs
  
 --> Reading design: ALU_4bit.prj
 
@@ -104,9 +104,8 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "C:/Xilinx/42279/ALU/ALU_4bit.vhd" in Library work.
-Entity <alu_4bit> compiled.
-Entity <alu_4bit> (Architecture <alu_4bit_arch>) compiled.
+Compiling vhdl file "C:/Xilinx/VLSID_PR_PICT/1.ALU/ALU_4bit.vhd" in Library work.
+Architecture alu_4bit_arch of Entity alu_4bit is up to date.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
@@ -128,7 +127,7 @@ Entity <ALU_4bit> analyzed. Unit <ALU_4bit> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <ALU_4bit>.
-    Related source file is "C:/Xilinx/42279/ALU/ALU_4bit.vhd".
+    Related source file is "C:/Xilinx/VLSID_PR_PICT/1.ALU/ALU_4bit.vhd".
     Found 5-bit 8-to-1 multiplexer for signal <result>.
     Found 5-bit addsub for signal <result$addsub0000>.
     Found 5-bit adder for signal <result$addsub0001> created at line 54.
@@ -315,12 +314,12 @@ Delay:               13.714ns (Levels of Logic = 14)
 =========================================================================
 
 
-Total REAL time to Xst completion: 6.00 secs
-Total CPU time to Xst completion: 6.19 secs
+Total REAL time to Xst completion: 14.00 secs
+Total CPU time to Xst completion: 13.14 secs
  
 --> 
 
-Total memory usage is 231232 kilobytes
+Total memory usage is 4498836 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

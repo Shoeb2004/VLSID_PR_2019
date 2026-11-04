@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Xilinx/VLSID_PR_PICT/lcd_test/lcd_test_tb_isim_beh.exe" -prj "C:/Xilinx/VLSID_PR_PICT/lcd_test/lcd_test_tb_beh.prj" "work.lcd_test_tb" 
